@@ -20,7 +20,7 @@
 
       <header>
         <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
-  <a class="navbar-brand" href="#"><img src="img/logo.png" height="35"></a>
+  <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="35"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
     aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -30,24 +30,16 @@
       <li class="nav-item active">
         <a class="nav-link" href="index.html">Главная</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">О нас
-        </a>
-        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" href="#">О MMC</a>
-          <a class="dropdown-item" href="#">Отзывы</a>
-          <a class="dropdown-item" href="#">Специалисты</a>
-        </div>
+      <li class="nav-item">
       <li class="nav-item">
         <a class="nav-link" href="directions.html">Направления</a>
         <span class="sr-only">(current)</span>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Мед. пакеты</a>
+        <a class="nav-link" href="medpak.html">Мед. пакеты</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Специалисты</a>
+        <a class="nav-link" href="doctors.html">Специалисты</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Контакты</a>
@@ -56,27 +48,27 @@
     </ul>
     <ul class="navbar-nav ml-auto nav-flex-icons">
       <li class="nav-item">
-        <a class="nav-link waves-effect waves-light">
+        <a target="_blank" href="https://twitter.com" class="nav-link waves-effect waves-light">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link waves-effect waves-light">
+        <a target="_blank" href="https://facebook.com" class="nav-link waves-effect waves-light">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link waves-effect waves-light">
+        <a target="_blank" href="https://instagram.com" class="nav-link waves-effect waves-light">
           <i class="fab fa-instagram"></i>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link waves-effect waves-light">
+        <a target="_blank" href="https://vk.com" class="nav-link waves-effect waves-light">
           <i class="fab fa-vk"></i>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link waves-effect waves-light">
+        <a target="_blank" href="https://gmail.google.com" class="nav-link waves-effect waves-light">
           <i class="fab fa-google-plus-g"></i>
         </a>
       </li>
@@ -88,7 +80,7 @@
 
       <section id="directions">
 
-          <img src="directions/directions.jpg">
+          <img src="img/directions.jpg">
 
           <div class="container">
 
@@ -100,9 +92,9 @@
           Узнать больше
         </button>
         <!-- Popup -->
-        <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <div class="modal fade text-center" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Кардиология</h5>
@@ -111,7 +103,23 @@
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                <span>Отделение кардиологии в Moldovian Medical Center специализируется на диагностике, лечении и профилактике заболеваний сердца и кровеносных сосудов.</span>
+                <br><hr>
+                <span>
+                  В Республике Молдове, как и во всем мире, сердечно-сосудистые заболевания являются главной причиной смертности и инвалидизации населения. Именно поэтому команда American Medical Center включает лучших врачей-кардиологов страны.
+                  <br>
+                  Элеонора Ватаман – врач-кардиолог с 43-летним опытом работы в области кардиологии, доктор хабилитат медицинских наук, профессор.
+                  <br>
+                  Людмила Карданюк – врач-кардиолог высшей категории с 43-летним опытом работы, ассистент кафедры кардиологии Государственного университета медицины и фармации имени Н. Тестемицану, обладательница звания «Om emerit».
+                </span>
+                <hr>
+                <h3>СПИСОК УСЛУГ</h3>
+                <ul>
+                  <li>Электрокардиография (ЭКГ)</li>
+                  <li>Лечение аритмии</li>
+                  <li>Лечение гипертонии</li>
+                  <li>Эхокардиография</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -126,9 +134,9 @@
           Узнать больше
         </button>
         <!-- Popup -->
-        <div class="modal fade" id="basicExampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <div class="modal fade text-center" id="basicExampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Терапия</h5>
@@ -137,7 +145,21 @@
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                <span>
+                  Внутренняя медицина - это специальность, которая занимается профилактикой, диагностикой и нехирургическим лечением заболеваний внутренних органов.
+                  <br><hr>
+                  Специалисты по внутренним болезням, назначенные и терапевты, консультируют и лечат взрослых людей с респираторными, сердечными, пищеварительными, почечными или костно-суставными заболеваниями. Поэтому он является ключевым специалистом в современной медицине, который обладает глубокими знаниями и навыками в нескольких областях медицины. В то же время терапевт должен обладать особыми способностями в постановке правильного диагноза и эффективном лечении соответственно.
+                  <br>
+                  В Молдавском Медицинском Центре вы можете воспользоваться консультацией самых профессиональных терапевтов. Наши врачи тщательно проанализируют все симптомы заболевания, проведут полное клиническое обследование и при необходимости порекомендуют определенные лабораторные анализы или параклинические исследования, которые могут быть выполнены в клинике.
+                </span>
+                <br>
+                <h3>СПИСОК УСЛУГ</h3>
+                <ul>
+                  <li>Лечение бронхиальной астмы</li>
+                  <li>Лечение аллергических реакций</li>
+                  <li>Устранение болей в спине</li>
+                  <li>Лечение дыхательных, пневмонических, тонзиллитических заболеваний</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -152,9 +174,9 @@
           Узнать больше
         </button>
         <!-- Popup -->
-        <div class="modal fade" id="basicExampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <div class="modal fade text-center" id="basicExampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Психология</h5>
@@ -163,7 +185,25 @@
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                <span>
+                  Психология - это точная наука о человеческом уме и поведении. Он изучает психические функции и процессы, внутренние и субъективные переживания, такие как мысли, эмоции, сознание, мотивация, восприятие других или личность.
+                </span>
+                <br><hr>
+                <span>
+                  Каждый из нас может пережить периоды стресса, грусти, боли или конфликта. Много раз нам трудно понять, можем ли мы преодолеть эти условия в одиночку или нуждаемся в помощи.
+                  <br>
+                  Поэтому, если вам трудно общаться с другими людьми, вы чувствуете недовольство собственной жизнью, чувствуете себя одиноко, регулярно сталкиваетесь с неконтролируемыми недоразумениями и реакциями, желательно проконсультироваться со специалистом.
+                  <br>
+                  В Молдавском Медицинском Центре вы можете найти необходимую поддержку. Здесь вам помогут комплексная диагностика и индивидуальное лечение различных психоэмоциональных состояний. Наш психолог может помочь вам понять факторы, которые определяют ваше состояние и принять ваши слабости, а также ваши сильные стороны. Когда вы можете определить свои чувства, легче справляться с трудными ситуациями. Когнитивно-поведенческая, внушающая или расслабляющая психотерапия может способствовать положительным результатам.
+                </span>
+                <br><hr>
+                <h3>СПИСОК УСЛУГ</h3>
+                <ul>
+                  <li>Депрессия и нейровзоры</li>
+                  <li>Панические состояния</li>
+                  <li>Вегето-сосудистая дистония</li>
+                  <li>Лечение фобий, стрессовых состояний</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -183,7 +223,7 @@
         <!-- Popup -->
         <div class="modal fade" id="basicExampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Офтальмология</h5>
@@ -192,7 +232,24 @@
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                <span>
+                  Офтальмология — область медицины, изучающая глаз, его анатомию, физиологию и болезни, а также разрабатывающая методы лечения и профилактики глазных болезней.
+                </span>
+                <br><hr>
+                <span>
+                  В наши дни сложно встретить человека, который бы не знал о том, что представляет собой офтальмология. В Оргееве эта медицинская отрасль широко востребована в силу того, что живём мы в XXIвеке, эпохе развития электроники, когда глаза находятся в постоянном напряжении. Итак, офтальмология изучает глаз. Из старины к нам пришла поговорка «береги, как зеницу ока». Она говорит о том, что наши предки считали зрачок самым ценным человеческим органом. Вам стоит прислушаться к мудрости предтечей и беречь своё око, которое помогает видеть вам всю красоту окружающего мира, любимых и дорогих людей.
+                  <br>
+                  Офтальмология не только изучает око в его анатомии и физиологии, она уделяет большое внимание и глазным болезням, постоянно разрабатывая методы их лечения, а также отдавая много времени профилактике глазных болезней. Врач офтальмолог поможет вам «сберечь зеницу ока». Ваша задача вовремя к нему обратиться. 
+                  <br>
+                  Если вам понадобилась консультация офтальмолога, к вашим услугам медицинский центр MMC. Важнейшим принципом нашей работы является предоставление нашим клиентам всего лучшего, что есть на сегодняшний день в офтальмологии мира. Мы практикуем лечение и профилактику простых и сложных глазных заболеваний.
+                </span>
+                <br><hr>
+                <h3>СПИСОК УСЛУГ</h3>
+                <ul>
+                  <li>Коррекция зрения по индивидуальным схемам</li>
+                  <li>Изготовление лучших в стране контактных линз на заказ</li>
+                  <li>Обследования с помощью современного медицинского оборудования</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -208,7 +265,7 @@
         <!-- Popup -->
         <div class="modal fade" id="basicExampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Стоматология</h5>
@@ -217,7 +274,24 @@
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                <span>
+                  Стоматология — область медицины, изучающая зубы, их анатомию, физиологию и болезни, а также разрабатывающая методы лечения и профилактики зубных болезней.
+                </span>
+                <br><hr>
+                <span>
+                  В наши дни сложно встретить человека, который бы не знал о том, что представляет собой офтальмология. В Оргееве эта медицинская отрасль широко востребована в силу того, что живём мы в XXIвеке, эпохе развития электроники, когда глаза находятся в постоянном напряжении. Итак, офтальмология изучает глаз. Из старины к нам пришла поговорка «береги, как зеницу ока». Она говорит о том, что наши предки считали зрачок самым ценным человеческим органом. Вам стоит прислушаться к мудрости предтечей и беречь своё око, которое помогает видеть вам всю красоту окружающего мира, любимых и дорогих людей.
+                  <br>
+                  Стоматология не только изучает око в его анатомии и физиологии, она уделяет большое внимание и глазным болезням, постоянно разрабатывая методы их лечения, а также отдавая много времени профилактике глазных болезней. Врач офтальмолог поможет вам «сберечь зеницу ока». Ваша задача вовремя к нему обратиться. 
+                  <br>
+                  Если вам понадобилась консультация офтальмолога, к вашим услугам медицинский центр MMC. Важнейшим принципом нашей работы является предоставление нашим клиентам всего лучшего, что есть на сегодняшний день в офтальмологии мира. Мы практикуем лечение и профилактику простых и сложных глазных заболеваний.
+                </span>
+                <br><hr>
+                <h3>СПИСОК УСЛУГ</h3>
+                <ul>
+                  <li>Отбеливание зубов</li>
+                  <li>Изготовление лучших в стране зубных коронок на заказ</li>
+                  <li>Выравнимание челюсти новейшими методами</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -226,23 +300,41 @@
         </div>
         <div class="col-sm">
           <i class="fas fa-cannabis"></i>
-      <p>Неврология</p>
+      <p>Нефрология</p>
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicExampleModal6">
           Узнать больше
         </button>
         <!-- Popup -->
         <div class="modal fade" id="basicExampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Неврология</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Нефрология</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                <span>
+                  Нефрологическое отделение American Medical Center занимается диагностикой и лечением заболеваний почек. Почки – это парный орган, основное назначение которого – очистка крови и выведение из организма продуктов обмена веществ.
+                </span>
+                <br><hr>
+                <span>
+                  Избыток жидкости и токсинов, накапливающихся в результате процессов обмена веществ, выводится из организма, фильтруясь вместе с мочой. Кроме того, почками регулируется кислотно-щелочной баланс, позволяя предотвратить избыточную кислотность крови. Почки также играют важную роль в регуляции артериального давления, вырабатывая гормоны. Гормоны почек, такие как эритропоэтин, контролируют выработку клеток крови в костном мозге.
+                  <br>
+                  Нарушения в работе почек ведут к негативным изменениям, затрагивающим весь организм. Заболевания почек могут развиваться как медленно и бессимптомно, так и иметь быстрое течение болезни в острой форме и вести к серьезным осложнениям.
+                  <br>
+                  Своевременная консультация врача-нефролога поможет выявить болезнь на начальной стадии и не допустить развития осложнений.
+                </span>
+                <br><hr>
+                <h3>СПИСОК УСЛУГ</h3>
+                <ul>
+                  <li>Лечение мочекаменной болезни</li>
+                  <li>Лечение пиелонефрита</li>
+                  <li>Гломерулонефрит</li>
+                  <li>УЗИ мочевой системы</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -261,7 +353,7 @@
         <!-- Popup -->
         <div class="modal fade" id="basicExampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Отолорингология</h5>
@@ -270,7 +362,25 @@
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                <span>
+                  Отоларингология – раздел медицины, посвященный профилактике, диагностике и лечению заболеваний уха, верхних дыхательных путей и прилегающих областей лица и шеи. Отоларингология лечит заболевания носа, придаточных пазух носа, глотки и гортани.
+                </span>
+                <br><hr>
+                <span>
+                  Современное и эффективное лечение ЛОР-заболеваний играет важную роль для поддержания здоровья и правильного функционирования человеческого организма. Болезни ухо-горло-носа способствуют не только ухудшению качества жизни пациента, но и могут способствовать развитию осложнений, которые ухудшают общее состояние здоровья. 
+                  <br>
+                  В Moldovian Medical Center созданы оптимальные условия для того, чтобы предоставить вам качественную диагностику и лечение болезней уха, горла, носа. Если по ходу обследования возникает необходимость обратиться к специалисту другой области медицины, вы сможете сделать это, не выходя из клиники. 
+                  <br>
+                  Тщательное обследование пациента при помощи современного аппаратного оснащения позволит оперативно установить точный диагноз и выявить причину заболевания, способствуя подбору максимально эффективного пути лечения для каждого пациента.
+                </span>
+                <br><hr>
+                <h3>СПИСОК УСЛУГ</h3>
+                <ul>
+                  <li>Лечение вазомоторного ринита</li>
+                  <li>Лечение ринита</li>
+                  <li>Лечение отита</li>
+                  <li>Лечение гайморита</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -286,7 +396,7 @@
         <!-- Popup -->
         <div class="modal fade" id="basicExampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Гастроэнтерология</h5>
@@ -295,7 +405,21 @@
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                <span>
+                  Отделение гастроэнтерологии в Moldovian Medical Center создано для того, чтобы каждый пациент, страдающий от какого-либо заболевания желудочно-кишечного тракта или столкнувшийся с первыми симптомами болезни, смог получить профессиональную медицинскую помощь от ведущих специалистов страны.
+                </span>
+                <br><hr>
+                <span>
+                  Благодаря многолетнему опыту врачей-гастроэнтерологов клиники Moldovian Medical Center вы получите консультацию, лечение и рекомендации в случае возникновения любых проблем, связанных со здоровьем пищевода, желудка, двенадцатиперстной, тонкой или толстой кишки, а также печени, желчного пузыря и поджелудочной железы.
+                </span>
+                <br><hr>
+                <h3>СПИСОК УСЛУГ</h3>
+                <ul>
+                  <li>Лечение язвы желудка и двенадцатиперстной кишки</li>
+                  <li>Лечение гастрита</li>
+                  <li>Лечение синдрома раздраженного кишечника</li>
+                  <li>Лечение лишнего веса или резкой потери веса</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -311,7 +435,7 @@
         <!-- Popup -->
         <div class="modal fade" id="basicExampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Лазерная терапия</h5>
@@ -320,7 +444,25 @@
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                <span>
+                  Лазеротерапия (лазерная терапия, ЛТ, LLLT) являет собой вариант физиотерапии, который заключается в использовании лазерного излучения определенного диапазона. Особенность процедуры заключается в использовании лазера с волной одной длины.
+                </span>
+                <br><hr>
+                <span>
+                  Лазерная терапия НИЛИ чаще всего используется для борьбы с кожными болезнями. Воздействие лазера способствует восстановлению кожи, удаляет отеки и неприятные ощущения, стимулирует обмен веществ. Кроме этого, лазерное излучение способствует заживлению ран, улучшает циркуляцию крови, увеличивает скорость движения крови, лазер препятствует развитию различных заболеваний.
+
+                  Низкоинтенсивное лазерное излучение в современной медицине используется для лечения красного плоского лишая, крапивницы, фурункулов, васкулитов, инфицированных ран, дерматозов и многих других недугов. Воздействуя на кожу, НИЛИ оказывает антибактериальное воздействие, удаляет воспаление, нормализует кожный иммунитет, лазер снижает появление свободных радикалов, борется с зудом, снижает чувствительность кожи.
+
+
+                </span>
+                <br><hr>
+                <h3>СПИСОК УСЛУГ</h3>
+                <ul>
+                  <li>Заболевания опорно-двигательной системы (межпозвоночная грыжа, протрузии межпозвоночных дисков, пяточные шпоры).</li>
+                  <li>Заболевания суставов</li>
+                  <li>ЛОР-болезни</li>
+                  <li>Сосудистые заболевания (мигрень, энцефалопатия, головокружения, рассеянность)</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -339,7 +481,7 @@
         <!-- Popup -->
         <div class="modal fade" id="basicExampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Дерматология</h5>
@@ -348,7 +490,15 @@
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                <span>
+                  
+                </span>
+                <br>
+                <span>
+                  
+                </span>
+                <br><hr>
+                <h3></h3>
               </div>
             </div>
           </div>
@@ -364,7 +514,7 @@
         <!-- Popup -->
         <div class="modal fade" id="basicExampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Ультразвуковое исследование</h5>
@@ -373,7 +523,15 @@
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                <span>
+                  
+                </span>
+                <br>
+                <span>
+                  
+                </span>
+                <br><hr>
+                <h3></h3>
               </div>
             </div>
           </div>
@@ -389,7 +547,7 @@
         <!-- Popup -->
         <div class="modal fade" id="basicExampleModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Лабораторные исследования</h5>
@@ -398,7 +556,15 @@
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                <span>
+                  
+                </span>
+                <br>
+                <span>
+                  
+                </span>
+                <br><hr>
+                <h3></h3>
               </div>
             </div>
           </div>
@@ -410,6 +576,170 @@
           </div>
 
       </section>
+
+      <section id="priem">
+        
+        <form class="border border-light p-5">
+
+    <p class="h4 mb-4 text-center">Записаться на прием</p>
+
+    <input type="text" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Имя Фамилия">
+
+    <input type="email" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Email">
+
+    <input type="text" id="textInput" class="form-control mb-4" placeholder="Номер телефона">
+
+    <select class="browser-default custom-select mb-4" id="select">
+        <option value="" disabled="" selected="">Выберите отдел</option>
+        <option value="1">Кардиология</option>
+        <option value="2">Терапия</option>
+        <option value="3">Психология</option>
+        <option value="4">Офтальмология</option>
+        <option value="5">Стоматология</option>
+        <option value="6">Нефрология</option>
+        <option value="7">Отоларингология</option>
+        <option value="8">Гастроэнтерология</option>
+        <option value="9">Ультразвуковые исследования</option>
+        <option value="10">Дерматология</option>
+        <option value="11">Лазерная терапия</option>
+        <option value="12">Лабораторные исследования</option>
+    </select>
+
+    <textarea id="textarea" class="form-control mb-4" placeholder="Ваше сообщение"></textarea>
+    
+
+    <button class="btn btn-info btn-block my-4" type="submit">Отправить</button>
+
+   
+</form>
+
+      </section>
+
+
+        <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
+
+  <div style="background-color: #2bbbad;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Будь с нами в социальных сетях!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a href="https://facebook.com/" target="_blank" class="fb-ic">
+            <i class="fab fa-facebook-f white-text mr-4"> </i>
+          </a>
+          <!-- Twitter -->
+          <a href="https://twitter.com/" target="_blank" class="tw-ic">
+            <i class="fab fa-twitter white-text mr-4"> </i>
+          </a>
+          <!-- Google +-->
+          <a href="https://gmail.google.com/" target="_blank" class="gplus-ic">
+            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+          </a>
+          <!--VK -->
+          <a href="https://vk.com/" target="_blank" class="li-ic">
+            <i class="fab fa-vk white-text mr-4"> </i>
+          </a>
+          <!--Instagram-->
+          <a href="https://instagram.com/" target="_blank" class="ins-ic">
+            <i class="fab fa-instagram white-text"> </i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Moldovian Medical Center</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Персонализированная медицина – то, что предлагает Moldovian Medical Center каждому пациенту.
+
+        Здесь вы найдете эффективные и персонализированные решения для любой проблемы со здоровьем.
+
+</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Полезные ссылки</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#about">O AMC</a>
+        </p>
+        <p>
+          <a href="medpak/medpak.html">Медицинские пакеты</a>
+        </p>
+        <p>
+          <a href="directions/directions.html">Направления</a>
+        </p>
+        <p>
+          <a href="doctors/doctors.html">Наши доктора</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Контакты</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i>Молдова, Оргеев, ул. Высоцкого 21/2</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@mmc.md</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i>+37367811223</p>
+        <p>
+          <i class="fas fa-print mr-3"></i>+37367811223</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://github.com/usarb/ppw.2019/"> MMcenter.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
 
 
 
