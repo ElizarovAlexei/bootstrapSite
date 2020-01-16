@@ -86,6 +86,20 @@
 	margin-top: 50px;
 }
 
+@media (max-width: 950px) {
+	#medpak .container {
+	grid-template-columns: repeat(1, 1fr);
+	margin-top: 50px;
+	}
+}
+
+@media (max-width: 340px) {
+	#medpak .button {
+		padding: 5px 10px;
+	}
+}
+
+
 #medpak .container div {
 	margin-right: 30px;
 	margin-bottom: 30px;
@@ -143,6 +157,10 @@ position:absolute;
 	padding: 30px;
 }
 
+#doctors .card {
+	margin-bottom: 30px;
+}
+
 .contacts {
 	margin-top: 20px;
 }
@@ -150,4 +168,52 @@ position:absolute;
 
 footer {
 	margin-top: 100px;
+}
+
+
+#about {
+	width: 80%;
+	background-color: rgb(146, 147, 148, 0.2);
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}	
+
+
+#about .container {
+	width: 75%;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#about .container p { 
+	font-size: 20px;
+	font-family: 'Caveat', cursive;
+	font-weight: lighter;
+}
+
+#about .container h1, #news h1 {
+	font-family: 'Cuprum', sans-serif;
+	font-size: 35px;
+	font-weight: lighter;
+	padding: 20px;
+}
+
+#about .container h1:first-letter, #news h1:first-letter {
+	color: rgb(36, 116, 191, 0.91);
+}
+
+#news .container img {
+	height: 200px;
+	width: 400px;
+	margin: 0 auto;
+}
+
+#news .container {
+	margin: 50px auto;
+}
+
+#about .container p {
+	line-height: 2;
 }
